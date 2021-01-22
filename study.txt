@@ -1,0 +1,26 @@
+Woring tree - 수정한 파일들
+Staging Area - 버전을 만들려고 하는 파일들
+Repository - 만들어진 버전
+
+checkout : 특정버전으로 working tree를 변경시키는 방법
+ex> git checkout [git log의 주소]
+
+git commit -am : 이미 생성된 파일에 한해서 add와 commit이 동시에 가능하다.
+
+git add . : 지금 디렉토리의 하위 파일들을 add한다.
+
+git reset [git log의 id]: 이 버전으로 reset하겠다
+
+git revert : 이전 버전을 삭제하지 않고 특정 버전으로 되돌린다.
+
+*git revert을 할 때 특정 버전을 돌아가고 싶다고 revert을 하면 conflict가 일어나기 때문에 역순으로 revert을 해주어야 한다.
+
+git commit --amend : commit 메세지 수정
+
+master branch에 o2 branch을 병합할 때 :
+1.git checkout master - master branch로 이동
+2.git merge o2 - o2 branch 병합
+
+git log --all --graph --oneline 
+
+conflict : 두 branch가 수정됬을 때 merge를 하면 conflict가 일어난다. 이때는 파일에 들어가 conflict가 일어난 부분을 수정해준다.
