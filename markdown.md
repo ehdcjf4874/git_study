@@ -38,6 +38,49 @@
 	- 녹색
 		- 파랑
 
+# 4.코드
+## 4.1. 들여쓰기
+This is a normal paragraph:
+
+	This is a code block.
+
+end code block.
+
+## 4.2. 코드블럭
+
+<pre>
+<code>
+public class BootSpringBoot Application{
+	public static void main(String[] args){
+		system.out.println("Hello, Honeymon");
+	}
+
+}
+</code>
+</pre>
+
+```
+public class BottStringBoot Application{
+	public static void main(String[] args){
+		system.out.println("Hello, Honeymon");
+	}
+}
+```
+
+# 5.수평선<hr/>
+아래줄은 모두 수평선을 만든다. 마크다운 문서를 미리보기로 출력할 때 페이지 나누기 용도로 많이 사용한다.
+* * *
+
+***
+
+*****
+
+- - -
+
+-------------------------------
+
+
+
 
 	
 
