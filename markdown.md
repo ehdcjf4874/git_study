@@ -282,14 +282,15 @@ Link: [Google][googlelink]
 
 [googlelink]: https://google.com "Go google"
 ```
+
 [link keyword][id]
 
 [id]: URL "Optional Title here"
 
-//code
+// code
 Link: [Google][googlelink]
 
-[googlelink]: https://google.com "Go google
+[googlelink]: https://google.com "Go google"
  + 외부링크
 ```
 사용문법: [Title](link)
@@ -327,7 +328,7 @@ __double underscores__
 + __double underscores__
 + ~~concelline~~
 
-> `문장 중간에 사용하는 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.
->	> 문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.
+> `문장 중간에 사용하는 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.`
+> 문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.
 
 
