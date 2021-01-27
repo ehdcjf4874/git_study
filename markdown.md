@@ -344,12 +344,12 @@ __double underscores__
 예
 
 ```
-<img src="/img.jpg" width="300px" height="450px" title="px(픽셀) 크기 설정" alt="Girl"></img><br/>
-<img src="/img/jpg" width="30% height="30%" title="px(픽셀) 크기 설정" alt="Girl"></img>
+<img src="/img.jpg" width="400px" height="450px" title="px(픽셀) 크기 설정" alt="Girl"></img><br/>
+<img src="/img/jpg" width="30% height="40%" title="px(픽셀) 크기 설정" alt="Girl"></img>
 ```
 
 <img src="/img.jpg" width="400px" height="450px" title="px(픽셀) 크기 설정" alt="Girl"></img><br/>
-<img src="/img.jpg" width="30%" height="30%" title="px(픽셀) 크기 설정" alt="Girl"></img>
+<img src="/img.jpg" width="30%" height="40%" title="px(픽셀) 크기 설정" alt="Girl"></img>
 
  2.9 줄바꿈
 ----------
@@ -369,3 +369,5 @@ __double underscores__
 * 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.   
 이렇게
 
+* * *
+출처 : https://gist.github.com/ihoneymon/652be052a0727ad59601#-%EC%88%9C%EC%84%9C%EC%97%86%EB%8A%94-%EB%AA%A9%EB%A1%9D%EA%B8%80%EB%A8%B8%EB%A6%AC-%EA%B8%B0%ED%98%B8-----%EC%A7%80%EC%9B%90
