@@ -335,6 +335,6 @@ __double underscores__
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
 
-![Alt text](C:/Users/ehdcj/Downloads/img,jpg)
-![Alt text](C:/Users/ehdcj/Downloads/img,jpg "Optional title")
+![Alt text](/path/to/img,jpg)
+![Alt text](/C:/Users/ehdcj/Downloads/img,jpg "Optional title")
 
