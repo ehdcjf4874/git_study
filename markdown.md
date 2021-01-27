@@ -370,5 +370,6 @@ __double underscores__
 이렇게
 
 * * *
-출처 : [ihoneymon의 마크다운 작성법][link]
+출처: [ihoneymon의 마크다운 작성법][link]
+
 [link]: https://gist.github.com/ihoneymon/652be052a0727ad59601#-%EC%88%9C%EC%84%9C%EC%97%86%EB%8A%94-%EB%AA%A9%EB%A1%9D%EA%B8%80%EB%A8%B8%EB%A6%AC-%EA%B8%B0%ED%98%B8-----%EC%A7%80%EC%9B%90 "go link"
