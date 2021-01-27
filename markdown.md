@@ -97,7 +97,7 @@ This ia an H2
 2. 두번째
 3. 세번째
 
- ** 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다. **
+ **현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.**
 
 ```
 1. 첫번째
@@ -216,6 +216,8 @@ public class BootSpringBoot Application{
 </pre>
 + 코드블럭코드("```")을 이용하는 방법
 <pre>
+
+
 ```
 public class BootSpringBootApplication{
 	public static void main(String[] args){
@@ -223,6 +225,8 @@ public class BootSpringBootApplication{
 	}
 }
 ```
+
+
 </pre>
 
 
