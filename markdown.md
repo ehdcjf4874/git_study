@@ -85,7 +85,7 @@ This ia an H2
 ---------
 ### ● 순서있는 목록(번호)
 
- \*\*강조\*\*
+
 순서있는 목록은 숫자와 점을 사용한다.
 
 ```
@@ -216,11 +216,13 @@ public class BootSpringBoot Application{
 + 코드블럭코드("```")을 이용하는 방법
 ```
 
-```public class BootSpringBootApplication{
+\\```
+public class BootSpringBootApplication{
 	public static void main(String[] args){
 		System.out.println("Hello, Honeymon");
 	}
-}```
+}
+\\```
 ```
 
 ```
