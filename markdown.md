@@ -336,5 +336,35 @@ __double underscores__
 ```
 
 ![Alt text](/img.jpg)
-![Alt text](/C:/Users/ehdcj/Downloads/img.jpg "Optional title")
+![Alt text](/img.jpg "Girl")
+
+사이즈 조절 기능이 없기 때문에 `<img width="" height=""></img>를 이용한다.`
+
+예
+
+```
+<img src="/img.jpg" width="300px" height="450px" title="px(픽셀) 크기 설정" alt="Girl"></img><br/>
+<img src="/img/jpg" width="30% height="30%" title="px(픽셀) 크기 설정" alt="Girl"></img>
+```
+
+<img src="/img.jpg" width="300px" height="450px" title="px(픽셀) 크기 설정" alt="Girl"></img><br/>
+<img src="/img/jpg" width="30%" height="30%" title="px(픽셀) 크기 설정" alt="Girl"></img>
+
+ 2.9 즐바꿈
+----------
+ 3칸 이상 띄어쓰기(   )를 하면 줄이 바뀐다.
+
+```
+* 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.
+이렇게
+
+* 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.___\\ 띄어쓰기
+이렇게
+```
+
+* 줄바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.
+이렇게
+
+*줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.   
+이렇게
 
