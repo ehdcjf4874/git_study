@@ -267,6 +267,21 @@ public class BottStringBoot Application{
 
 -------------------------------
 
+ 2.6 링크
+---------
+
+ + 참조링크
+
+```
+[link keyword][id]
+
+[id]: URL "Optional Tilte here"
+
+// code
+Link: [Google][googlelink]
+
+[googlelink]: https://google.com "Go google"
+```
 
 
 
