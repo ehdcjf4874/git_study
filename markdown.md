@@ -97,7 +97,8 @@ This ia an H2
 2. 두번째
 3. 세번째
 
-##### 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
+ ** 현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다. **
+
 ```
 1. 첫번째
 3. 세번째
@@ -108,7 +109,7 @@ This ia an H2
 3. 두번째
 
 
- 순서없는 목록(글머리 기호:```*```,```+```,```-```지원)
+### ● 순서없는 목록(글머리 기호:```*```,```+```,```-```지원)
 
 ```
 * 빨강
@@ -214,16 +215,16 @@ public class BootSpringBoot Application{
 </code>
 </pre>
 + 코드블럭코드("```")을 이용하는 방법
+<pre>
 ```
-
-<pre>```/<pre>
 public class BootSpringBootApplication{
 	public static void main(String[] args){
 		System.out.println("Hello, Honeymon");
 	}
 }
-<pre>```</pre>
 ```
+</pre>
+
 
 ```
 public class BottStringBoot Application{
