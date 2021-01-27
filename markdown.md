@@ -321,7 +321,7 @@ __double underscores__
 
 + *single asterisks*
 + _single underscores_
-+ ""double asterisks**
++ **double asterisks**
 + __double underscores__
 + ~~concelline~~
 
