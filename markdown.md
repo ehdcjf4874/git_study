@@ -324,6 +324,17 @@ __double underscores__
 + ~~concelline~~
 
 > `문장 중간에 사용하는 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.`
+
 > 문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋다.
 
+ 2.8 이미지
+----------
+
+```
+![Alt text](/path/to/img.jpg)
+![Alt text](/path/to/img.jpg "Optional title")
+```
+
+![Alt text](path/to/img,jpg)
+![Alt text](/path/to/img,jpg "Optional title")
 
