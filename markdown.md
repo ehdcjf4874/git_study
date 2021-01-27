@@ -84,6 +84,7 @@ This ia an H2
  2.3. 목록
 ---------
 + 순서있는 목록(번호)
+---------------------
 
 순서있는 목록은 숫자와 점을 사용한다.
 
@@ -107,7 +108,8 @@ This ia an H2
 3. 두번째
 
 
-* 순서없는 목록(글머리 기호:```*```,```+```,```-```지원)
+ 순서없는 목록(글머리 기호:```*```,```+```,```-```지원)
+
 ```
 * 빨강
 	* 녹색
@@ -188,26 +190,37 @@ end code block.
 ### 2.4.1 코드블럭
 코드블럭은 다음과 같이 2가지 방식을 사용할 수 있습니다:
 + ```<pre><code>{code}</code></pre>``` 이용방식
+
+```
 <pre>
 <code>
 public class BootSpringBoot Application{
 	public static void main(String[] args){
-		system.out.println("Hello, Honeymon");
+		System.out.println("Hello, Honeymon");
 	}
 
 }
 </code>
 </pre>
+```
 
-+ 코드블럭코드("```")을 이용하는 방법
-```
-```
-public class BootSpringBootApplication{
+<pre>
+<code>
+public class BootSpringBoot Application{
 	public static void main(String[] args){
 		System.out.println("Hello, Honeymon");
 	}
 }
+</code>
+</pre>
++ 코드블럭코드("```")을 이용하는 방법
 ```
+
+```public class BootSpringBootApplication{
+	public static void main(String[] args){
+		System.out.println("Hello, Honeymon");
+	}
+}```
 ```
 
 ```
@@ -231,9 +244,12 @@ public class BottStringBoot Application{
 
 - - -
 
----------------------------
+-----------------------------------------
 
 ```
+
+ + 적용 예
+
 * * *
 
 ***
