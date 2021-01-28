@@ -17,7 +17,7 @@
 10. git commit -am '[설명]': 이미 생성된 파일에 한해서 add와 commit이 동시에 가능하다.
 11. git commit --amend : commit 메세지를 수정한다.
 ```
-
+* * *
  2.GIT CLI - 버전관리
 ---------------------
 
@@ -62,6 +62,6 @@
 이전버전을 삭제하지 않고 특정버전으로 되돌릴 때 사용하는 방법
 사용법: git revert [git log의 coomit id]
 **git revert를 할 때 특정 버전으로 돌아가고 싶다고 revert을 하면 comflict가 일어나기 때문에 이전 버전부터 역순으로 revert를 해주어야 한다.**
-
+```
 
 
