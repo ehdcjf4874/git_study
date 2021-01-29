@@ -63,5 +63,28 @@
 사용법: git revert [git log의 coomit id]
 **git revert를 할 때 특정 버전으로 돌아가고 싶다고 revert을 하면 comflict가 일어나기 때문에 이전 버전부터 역순으로 revert를 해주어야 한다.**
 ```
+* * *
 
+ 3.GIT CLI - Branch & Conflict
+------------------------------
+### 3.1. Branch
+```
+한 뿌리에서 나왔지만 서로 다른 역사를 써가는 버전들을 말한다.
+```
+
+### 3.2. merge
+```
+branch와 branch를 합치는 것
+사용법: git merge[병합하고자 하는 branch명]
+
+ex> maseter branch에 o2branch를 병합 할 때:
+1. git checkout master - master branch로 이동
+2. git merge o2 - master branch에 o2 branch를 병합
+```
+
+### 3.3. Conflict
+```
+두 branch가 수정됬을 때 merge를 하면 conflict가 일어난다.
+이 때는 파일에 들어가 conflict가 일어난 부분을 수정해주면 해결된다.
+```
 
