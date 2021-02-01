@@ -5,7 +5,7 @@
 -----------
 ```
 1. git mkdir : 디렉토리를 만든다.
-2. nano [파일명] or vim [파읾영] : 파일을 만든다.
+2. nano [파일명] or vim [파일명] : 파일을 만든다.
 3. git rm [파일명] : 파일을 삭제한다.
 4. git -rf rm [디렉토리명] : 디렉토리를 삭제한다.
 5. git mv [파일명][바꾸고자하는 파일명] : 파일 이름을 변경한다.
@@ -15,7 +15,13 @@
 8. git status : 파일 저장 단계의 상태를 확인한다.
 9. git add . : 지금 디텍토리의 하위 파일들을 add한다.
 10. git commit -am '[설명]': 이미 생성된 파일에 한해서 add와 commit이 동시에 가능하다.
-11. git commit --amend : commit 메세지를 수정한다.
+11. git commit --amend : 최근 commit 메세지를 수정한다.
+12. 커밋메시지 수정하는 방법 
+    1) git rebase -i [commit id]
+    2) 수정을 원하는 커밋을 pick에서 edit로 변경한다.
+    3) git commit --amend
+    4) commit 메시지를 수정한다.
+    5) git rebase --continue
 ```
 * * *
  2.GIT CLI - 버전관리
