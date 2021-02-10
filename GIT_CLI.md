@@ -131,3 +131,20 @@ pull : 원격저장소의 버전을 지역저장소로 가져오는 방법
 사용법 : git pull
 ```
 * * *
+
+ 5.GIT CLI - 협업
+-----------------
+
+```
+협업을 할 때, 
+git bash를 통해 작업을 시작하기 전에 pull을 해주고 
+작업이 끝나면 push를 해준다.
+```
+
+### 5.1. git pull vs fetch 그리고 원격 브랜치
+```
+fetch - 현재 로컬저장소의 내용을 원격저장소의 내용과 merge해서 가져오는 것이 아니라 원격저장소의 내용만을 가져오는 것
+
+git pull = git fetch + git merge FETCH_HEAD
+```
+
